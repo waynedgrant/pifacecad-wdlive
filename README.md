@@ -1,5 +1,5 @@
 pifacecad-wdlive
 ================
 
-WDLive Clone for PiFace Control and Display (pfacecad) written in Python
+WDLive Clone for PiFace Control and Display (pifacecad) written in Python
 

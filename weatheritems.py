@@ -1,4 +1,5 @@
 # Copyright 2014 Wayne D Grant (www.waynedgrant.com)
+# Licensed under the MIT License
 
 from formatters import ForecastFormatter
 from formatters import HumidityFormatter
