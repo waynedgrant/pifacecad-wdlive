@@ -6,9 +6,15 @@ Licensed under the MIT License
 
 WDLive Clone for PiFace Control and Display (pifacecad) written in Python.
 
+pifacecad-wdlive is a simple weather display console.
+
 pifacecad-wdlive can be configured on the command line to read and display data from any
 WDLive clientraw.txt file available on the web via http.
 It polls the specified file once a minute updating the pifacecad's display with the new data.
+
+pifacecad-wdlive supports the display of many different weather items and measurement units.
+
+It can optionally work with an IR remote control via LIRC.
 
 ## Requirements
 
@@ -38,31 +44,37 @@ $ python3 pifacecad-wdlive.py http://www.waynedgrant.com/weather/clientraw.txt
 
 ## Controls
 
-* Button 1: change temperature units
-* Button 2: change pressure units
-* Button 3: change wind speed units
-* Button 4: change wind direction units
-* Button 5: change rainfall units
-* Toggle Push: toggle backlight
-* Toggle Left: previous weather item
-* Toggle Right: next weather item
+* **Button 1** - change temperature units
+* **Button 2** - change pressure units
+* **Button 3** - change wind speed units
+* **Button 4** - change wind direction units
+* **Button 5** - change rainfall units
+* **Toggle Push** - toggle backlight
+* **Toggle Left** - previous weather item
+* **Toggle Right** - next weather item
+
+## Error Messages
+
+* **CLIENTRAW IS UNAVAILABLE** - Cannot fetch clientraw.txt because of an incorrect URL or a networking issue
+* **CLIENTRAW IS EMPTY** - clientraw.txt is empty, possibly because the poll happened when the file was being updated by Weather Display
+* **CLIENTRAW IS INVALID** - Specified URL is not a valid clientraw.txt file
 
 ## IR Installation
 
-* Setup LIRC - http://piface.github.io/pifacecad/lirc.html#setting-up-the-infrared-receiver
+* Setup LIRC on pifacecad - http://piface.github.io/pifacecad/lirc.html#setting-up-the-infrared-receiver
 * Copy example lircrc file for Xbox 360 remote from pifacecad-wdlive/.lircrc to home directory
 * Modify button assignments to match your remote control
 
-## Example Xbox 360 Remote Button Controls
+### Example Xbox 360 Remote Button Controls
 
-* "1": change temperature units
-* "2": change pressure units
-* "3": change wind speed units
-* "4": change wind direction units
-* "5": change rainfall units
-* "OK": toggle backlight
-* "Left Arrow": previous weather item
-* "Right Arrow": next weather item
+* **1** - change temperature units
+* **2** - change pressure units
+* **3** - change wind speed units
+* **4** - change wind direction units
+* **5** - change rainfall units
+* **OK** - toggle backlight
+* **Left Arrow** - previous weather item
+* **Right Arrow** - next weather item
 
 ## Weather Items
 
