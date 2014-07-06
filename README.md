@@ -16,6 +16,8 @@ pifacecad-wdlive supports the display of many different weather items and measur
 
 It can optionally work with an IR remote control via LIRC.
 
+![alt tag](pifacecad-wdlive.jpg)
+
 ## Requirements
 
 1. Raspberry Pi
