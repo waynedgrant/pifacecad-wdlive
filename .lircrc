@@ -1,0 +1,47 @@
+begin
+    prog = pifacecad-wdlive
+    button = OK
+    config = toggle_backlight
+end
+
+begin
+    prog = pifacecad-wdlive
+    button = LeftArrow
+    config = previous_weather_item
+end
+
+begin
+    prog = pifacecad-wdlive
+    button = RightArrow
+    config = next_weather_item
+end
+
+begin
+    prog = pifacecad-wdlive
+    button = 1
+    config = change_temperature_unit
+end
+
+begin
+    prog = pifacecad-wdlive
+    button = 2
+    config = change_pressure_unit
+end
+
+begin
+    prog = pifacecad-wdlive
+    button = 3
+    config = change_wind_speed_unit
+end
+
+begin
+    prog = pifacecad-wdlive
+    button = 4
+    config = change_wind_direction_unit
+end
+
+begin
+    prog = pifacecad-wdlive
+    button = 5
+    config = change_rainfall_unit
+end
