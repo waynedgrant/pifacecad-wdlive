@@ -128,7 +128,6 @@ def fetch_clientraw():
 
 
 def update_display():
-    global display_lock
     if clientraw is None:
         display_message("CLIENTRAW IS\nUNAVAILABLE")
     elif clientraw.is_empty():
