@@ -4,7 +4,7 @@ Copyright © 2014 Wayne D Grant
 
 Licensed under the MIT License
 
-WDLive Clone for PiFace Control and Display (pifacecad) written in Python.
+Weather Display Live Clone for PiFace Control and Display (pifacecad). Written in Python.
 
 pifacecad-wdlive is a simple weather display console.
 
