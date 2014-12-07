@@ -11,7 +11,7 @@ Licensed under the MIT License
 pifacecad-wdlive is a simple weather display console.
 
 pifacecad-wdlive can be configured on the command line to read and display data from any
-WDLive clientraw.txt file available on the web via http.
+WD Live clientraw.txt file available on the web via http.
 It polls the specified file once a minute updating the pifacecad's display with the new data.
 
 pifacecad-wdlive supports the display of many different weather items and measurement units.
@@ -120,7 +120,7 @@ $ python3 pifacecad-wdlive.py http://www.waynedgrant.com/weather/clientraw.txt
 * Kilometres per Hour (kph)
 * Knots (kts)
 * Metres per Second (m/s)
-* Miles per Second (mph)
+* Miles per Hour (mph)
 
 ### Wind Direction
 
