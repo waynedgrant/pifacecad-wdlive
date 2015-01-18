@@ -29,9 +29,7 @@ It can optionally work with an IR remote control via LIRC.
 
 ## Installation
 
-```
-$ git clone https://github.com/waynedgrant/pifacecad-wdlive.git
-```
+Download the source code for the [latest release](https://github.com/waynedgrant/pifacecad-wdlive/releases) and unzip it on your Raspberry Pi
 
 ## Execution
 
