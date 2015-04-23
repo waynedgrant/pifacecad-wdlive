@@ -1,4 +1,4 @@
-# Copyright 2014 Wayne D Grant (www.waynedgrant.com)
+# Copyright 2015 Wayne D Grant (www.waynedgrant.com)
 # Licensed under the MIT License
 
 

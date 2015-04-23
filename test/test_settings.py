@@ -1,4 +1,4 @@
-# Copyright 2014 Wayne D Grant (www.waynedgrant.com)
+# Copyright 2015 Wayne D Grant (www.waynedgrant.com)
 # Licensed under the MIT License
 
 import unittest
@@ -23,9 +23,9 @@ class TestSettings(unittest.TestCase):
 
     def test_pressure_unit(self):
         testee = Settings()
-        self.assertEqual(PressureUnit.HECTOPASCALS, testee.get_pressure_unit())
+        self.assertEqual(PressureUnit.KILOPASCALS, testee.get_pressure_unit())
         testee.change_pressure_unit()
-        self.assertEqual(PressureUnit.INCHES_OF_MERCURY, testee.get_pressure_unit())
+        self.assertEqual(PressureUnit.MILLIBARS, testee.get_pressure_unit())
 
     def test_rainfall_unit(self):
         testee = Settings()

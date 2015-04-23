@@ -1,4 +1,4 @@
-# Copyright 2014 Wayne D Grant (www.waynedgrant.com)
+# Copyright 2015 Wayne D Grant (www.waynedgrant.com)
 # Licensed under the MIT License
 
 import unittest
@@ -30,7 +30,7 @@ class TestWeatherItems(unittest.TestCase):
     def test_summary(self):
         weather_item = self.__get_weather_item(WeatherItemType.SUMMARY)
         self.assertEqual("25.4°C ➘ 97% ➚", weather_item.get_line1())
-        self.assertEqual("1019.7 hPa ➙", weather_item.get_line2())
+        self.assertEqual("101.97 kPa ➙", weather_item.get_line2())
 
     def test_average_wind(self):
         weather_item = self.__get_weather_item(WeatherItemType.AVERAGE_WIND)
@@ -90,7 +90,7 @@ class TestWeatherItems(unittest.TestCase):
     def test_surface_pressure(self):
         weather_item = self.__get_weather_item(WeatherItemType.SURFACE_PRESSURE)
         self.assertEqual("Surface Pressure", weather_item.get_line1())
-        self.assertEqual("1019.7 hPa ➙", weather_item.get_line2())
+        self.assertEqual("101.97 kPa ➙", weather_item.get_line2())
 
     def test_temperature(self):
         weather_item = self.__get_weather_item(WeatherItemType.TEMPERATURE)

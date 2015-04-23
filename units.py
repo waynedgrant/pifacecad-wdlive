@@ -1,4 +1,4 @@
-# Copyright 2014 Wayne D Grant (www.waynedgrant.com)
+# Copyright 2015 Wayne D Grant (www.waynedgrant.com)
 # Licensed under the MIT License
 
 
@@ -11,8 +11,8 @@ class PressureUnit:
     MILLMETRES_OF_MERCURY = 5
 
     def get_all(self):
-        return [self.HECTOPASCALS, self.INCHES_OF_MERCURY, self.KILOPASCALS,
-                self.MILLIBARS, self.MILLMETRES_OF_MERCURY]
+        return [self.KILOPASCALS, self.MILLIBARS, self.MILLMETRES_OF_MERCURY,
+                self.HECTOPASCALS, self.INCHES_OF_MERCURY, ]
 
 
 class RainfallUnit:
