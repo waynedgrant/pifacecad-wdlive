@@ -41,7 +41,7 @@ $ python3 pifacecad-wdlive.py [clientraw.txt url]
 For example:
 
 ```
-$ python3 pifacecad-wdlive.py http://www.waynedgrant.com/weather/meteohub/clientraw.txt
+$ python3 pifacecad-wdlive.py http://waynedgrant.com/weather/meteohub/clientraw.txt
 ```
 
 ## Controls
